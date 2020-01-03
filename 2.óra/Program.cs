@@ -26,7 +26,10 @@ namespace _2.óra
             List<Termek> raktarlista = new List<Termek>();
             List<string> raktarlista2 = new List<string>();
             string[] raktarkeszlet;
-            raktarkeszlet = File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+            
+            //raktarkeszlet2 = File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+            raktarkeszlet = File.ReadAllLines(@"C:\Users\nemet\source\repos\szellgergo\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+
             for (int i=0;i<raktarkeszlet.Length;i++) {
 
                 string[] tomb=raktarkeszlet[i].Split(';');
