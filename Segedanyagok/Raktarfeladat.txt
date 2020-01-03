@@ -1,0 +1,37 @@
+Feladat: 
+Beolvasunk egy txt állományt amelyben pontosvesszõvel vannak elválasztva a az oszlopok, ebben a txt állományban található adatok egy bolt raktár készletét szemléltetik. txt neve “Raktarkeszlet”
+Oszlopok tartalma:
+Termék megnevezése
+Termék vonalkódja 
+Termék mennyisége
+Termékre vonatkozó áfakulcs
+Termék nettó ára
+	
+	A raktár tulajdonos szeretne egy kis adatfeldolgozást a raktárral kapcsolatban, hogy átlátható legyen számára a raktár. Ehhez egy új txt állományba szeretné, hogy felsoroljuk,  neki a következõ adatokat: amely neve “elemzes.txt”
+Összegzés tétele:
+	A raktár tulajdonos tudni szeretné pontosan hány darab termék található a raktárban.
+Megszámlálás tétele:
+A ratár tulajdonos szeretné tudni hány db olyan elem van aminek az áfája nem 27%
+Eldöntés tétele:
+	A raktár tulajdonos szeretné tudni, hogy van-e JAGERMAISTER 1 L. termék mert le szeretné akciózni, hogy aztán vegyen otthonra iszogatni.
+Kiválasztás
+	A raktárban úgy vannak a termékek elhelyezve, ahogy a listában ezért szeretnénk tudni, hogy hányadik helyen van a listában, az elõbb megtalált jéger.
+Keresés
+	Ezt a fentebbi kettõt folyamatot tegyük olyanná, hogy akármikor akármilyen más termékre alkalmazható legyen. És a consolba beírt termék nevére tudjon rákersni.
+Kiválogatás
+	A raktár tulajdonos szeretné átrendezni a polcokat és az 1000 Ft alatti termékeket az alsó polcra helyezni. Ezért szeretné ha az 1000Ft alatti termékek egy külön txt állományba kerülnének. Neve legyen “alsopolc”
+Szétválogatás
+Olvassuk ki az újonnan létrehozott txt állományt és válogassuk szét külön külön txt állományokba a különbözõ áfa kulcsos termékeket. 
+Neveik legyenek “AFA”+afakulcsszam pl “AFA27%”
+Metszet
+Létre kell hozni egy új txt állományt amely tartalmazza a  “Raktarkeszlet” elemeit de nem tartalmazza az “Alsopolc”, elemeit. Az új txt neve “Felsopolc”
+Unio
+Hozzunk létre egy új txt állományt amely a bruttó ár szerint sorba szerepelnek a “Felsopolc” és az “Alsopolc” elemei
+			
+Melyik a legdrágább termék.
+	Melyik a legolcsóbb termék.
+	Melyik termékbõl található a legtöbb
+	
+A teljes raktárkészlet termékeit rendezzük sorrendbe vonalkód alapján és írassuk ki egy txt állományba.
+
+	Olvassuk ki az újonnan létrehozott txt állományt és válogassuk szét külön külön txt állományokba a különbözõ áfa kulcsos elemeket.
