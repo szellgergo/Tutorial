@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace _2.óra
@@ -7,9 +8,27 @@ namespace _2.óra
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Beolvasas();
+            
+        }
+
+        private static void Beolvasas()
+        {
+            List<Termek> raktarlista = new List<Termek>();
+            List<string> raktarlista2 = new List<string>();
             string[] raktarkeszlet;
-            raktarkeszlet = File.ReadAllLines(@"C:\Users\nemet\source\repos\szellgergo\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+            raktarkeszlet = File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+            for (int i=0;i<raktarkeszlet.Length;i++) {
+
+                string[] tomb=raktarkeszlet[i].Split(';');
+                for (int j = 0; j < tomb.Length; j++)
+                {
+                    Console.WriteLine(tomb[j]);
+                    raktarlista.Add(new Termek {nev=tomb[0],vonalkod=Int32.Parse(tomb[1]),mennyiseg=Int32.Parse(tomb[2]),afa=Int32.Parse(tomb[3].Split(',')[0]), netto=double.Parse(tomb[4])});
+                    raktarlista2.Add(tomb[j]);
+
+                }
+            }
         }
     }
 }
