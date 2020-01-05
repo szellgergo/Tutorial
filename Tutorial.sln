@@ -6,12 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt", "Teszt\Teszt.csproj", "{A00EBD07-2F50-4281-8D42-1C1BC8A4FAD5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Segedanyagok", "Segedanyagok", "{38503A10-1304-4F9E-A10D-B90AE97A4B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.óra", "2.óra\2.óra.csproj", "{9C31CA2E-2E6A-40B0-9A5A-F91044F033CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. órai", "3. órai", "{4740B280-3DEE-4202-B923-CC3E29AE265C}"
 	ProjectSection(SolutionItems) = preProject
-		Segedanyagok\Raktarfeladat.txt = Segedanyagok\Raktarfeladat.txt
-		Segedanyagok\Raktarkeszlet.txt = Segedanyagok\Raktarkeszlet.txt
+		Segedanyagok\3. órai\Harmadikorai.txt = Segedanyagok\3. órai\Harmadikorai.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.óra", "2.óra\2.óra.csproj", "{9C31CA2E-2E6A-40B0-9A5A-F91044F033CE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. órai", "2. órai", "{BB58ACA0-93A0-42CE-A7B2-224FC55DB9DC}"
+	ProjectSection(SolutionItems) = preProject
+		Segedanyagok\2. órai\Raktarfeladat.txt = Segedanyagok\2. órai\Raktarfeladat.txt
+		Segedanyagok\2. órai\Raktarkeszlet.txt = Segedanyagok\2. órai\Raktarkeszlet.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +37,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4740B280-3DEE-4202-B923-CC3E29AE265C} = {38503A10-1304-4F9E-A10D-B90AE97A4B56}
+		{BB58ACA0-93A0-42CE-A7B2-224FC55DB9DC} = {38503A10-1304-4F9E-A10D-B90AE97A4B56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E48A618E-A14E-4DCE-B2C3-1E051BA9A970}

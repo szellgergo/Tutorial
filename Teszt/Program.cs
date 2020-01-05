@@ -11,8 +11,19 @@ namespace Teszt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Szia");
-            File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+            
+            try//Ez minden esetben lefut
+            {
+                Console.WriteLine("Én mindig lefutok");
+                File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+                Console.WriteLine("Én csak akkor futok le ha sikeres volt az első beolvasás");
+            }
+            catch (Exception e) {
+                Console.WriteLine("Én csak akkor futok le ha sikertelen volt az első beolvasás");
+                File.ReadAllLines(@"C:\Users\sgergo\source\repos\Tutorial\Segedanyagok\Raktarkeszlet.txt");
+                Console.WriteLine("Én csak akkor futok le ha az első sikertelen lett de amásodik már nem");
+            }
+            
         }
     }
 }
