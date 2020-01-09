@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. órai", "2. órai", "{BB
 		Segedanyagok\2. órai\Raktarkeszlet.txt = Segedanyagok\2. órai\Raktarkeszlet.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikora", "harmadikora\harmadikora.csproj", "{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{9C31CA2E-2E6A-40B0-9A5A-F91044F033CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C31CA2E-2E6A-40B0-9A5A-F91044F033CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C31CA2E-2E6A-40B0-9A5A-F91044F033CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
