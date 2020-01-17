@@ -21,7 +21,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. órai", "2. órai", "{BB
 		Segedanyagok\2. órai\Raktarkeszlet.txt = Segedanyagok\2. órai\Raktarkeszlet.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikora", "harmadikora\harmadikora.csproj", "{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikora", "harmadikora\harmadikora.csproj", "{29ED27F5-85A2-48BB-AECC-E27B6A63FE47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. órai", "4. órai", "{1E9F2365-4FF7-41AE-A49F-9B07F9F8E2BF}"
+	ProjectSection(SolutionItems) = preProject
+		Segedanyagok\4. órai\4. óra.docx = Segedanyagok\4. órai\4. óra.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +53,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4740B280-3DEE-4202-B923-CC3E29AE265C} = {38503A10-1304-4F9E-A10D-B90AE97A4B56}
 		{BB58ACA0-93A0-42CE-A7B2-224FC55DB9DC} = {38503A10-1304-4F9E-A10D-B90AE97A4B56}
+		{1E9F2365-4FF7-41AE-A49F-9B07F9F8E2BF} = {38503A10-1304-4F9E-A10D-B90AE97A4B56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E48A618E-A14E-4DCE-B2C3-1E051BA9A970}
